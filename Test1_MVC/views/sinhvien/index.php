@@ -13,7 +13,7 @@
                     <td><?= htmlspecialchars($sv['GioiTinh']) ?></td>
                     <td><?= htmlspecialchars($sv['NgaySinh']) ?></td>
                     <td>
-                        <img src="public/images/<?= htmlspecialchars($sv['Hinh']) ?>" alt="Hình sinh viên" style="width: 50px; height: 50px; object-fit: cover;">
+                        <img src="/ST4/Test1_MVC/public/images/<?= htmlspecialchars($sv['Hinh']) ?>" alt="Hình sinh viên" style="width: 50px; height: 50px; object-fit: cover;">
                     </td>
                     <td>
                         <a href="index.php?controller=sinhvien&action=details&MaSV=<?= htmlspecialchars($sv['MaSV']) ?>" class="btn">Xem</a>

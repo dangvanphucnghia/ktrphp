@@ -20,7 +20,7 @@
         <tr>
             <th>Hình:</th>
             <td>
-                <img src="public/images/<?= htmlspecialchars($sinhvien['Hinh']) ?>" alt="Hình sinh viên" style="width: 100px; height: 100px; object-fit: cover;">
+                <img src="/ST4/Test1_MVC/public/images/<?= htmlspecialchars($sinhvien['Hinh']) ?>" alt="Hình sinh viên" style="width: 100px; height: 100px; object-fit: cover;">
             </td>
         </tr>
         <tr>
